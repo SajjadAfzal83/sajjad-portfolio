@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { ImDownload } from 'react-icons/Im'
+import { FiDownload } from 'react-icons/fi'
 const Navbar = () => {
     return (
         <div className='bg-white z-50 sticky top-0'>
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <button  className="inline-flex items-center bg-red-900 border-0 py-1 px-3 focus:outline-none hover:bg-red-500 rounded-full text-base mt-4 md:mt-0 text-white">
                         Download CV
                         
-                        <ImDownload className='ml-3'/>
+                        <FiDownload className='ml-3'/>
                     </button>
                         </a>
                 </div>
