@@ -29,9 +29,9 @@ const Hero = () => {
 />
       </h1>
       <div className='h-[3px] w-[100px] bg-red-900'></div>
-      <p className="mb-8 leading-relaxed p-2">
+      <h3 className="mb-8 leading-relaxed p-2">
         Hi! I am Muhammad Sajjad Afzal. Hope you all are well. 
-      </p>
+      </h3>
       <div className="flex justify-center">
         <Link href="#Contact">
         <button className="inline-flex items-center bg-red-900 border-0 py-1 px-8 focus:outline-none hover:bg-red-500 rounded-full text-base mt-4 md:mt-0 text-white">
