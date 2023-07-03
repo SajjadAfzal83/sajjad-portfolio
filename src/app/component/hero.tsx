@@ -32,7 +32,7 @@ const Hero = () => {
       
       <div className="flex justify-center">
         <Link href="#Contact">
-        <button className="inline-flex items-center bg-red-900 border-0 py-1 px-8 focus:outline-none hover:bg-red-500 rounded-full text-base mt-4 md:mt-0 text-white">
+        <button className="inline-flex items-center bg-red-900 border-0 py-1 px-8 focus:outline-none hover:bg-red-500 rounded-full text-base mt-4 md:mt-0 text-white p-8">
           Contact
         </button>
         </Link>
