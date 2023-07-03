@@ -28,7 +28,7 @@ const Hero = () => {
   }}
 />
       </h1>
-      <div className='h-[3px] w-[100px] bg-red-900'></div>
+      <div className='h-[3px] w-[100px] bg-red-900 p-8'></div>
       
       <div className="flex justify-center">
         <Link href="#Contact">
