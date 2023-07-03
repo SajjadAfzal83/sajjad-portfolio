@@ -17,7 +17,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/assets/project/project-pic01.jpg"
+            src={require("../../../public/assets/project/project-pic01.jpg")}
             width={500}
             height={500}
           />
