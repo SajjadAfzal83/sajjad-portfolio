@@ -22,16 +22,14 @@ const Hero = () => {
         <br className="hidden lg:inline-block" />
         <Typewriter
   options={{
-    strings: ['Web Developer'],
+    strings: ['Muhammad Sajjad Afzal','Web Developer','Web Teacher'],
     autoStart: true,
     loop: true,
   }}
 />
       </h1>
       <div className='h-[3px] w-[100px] bg-red-900'></div>
-      <p className="mb-8 leading-relaxed p-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita, commodi quaerat doloremque quis quam veritatis cumque magnam fuga ab temporibus, dignissimos at a esse ad, quisquam obcaecati ipsa rem?
-      </p>
+      
       <div className="flex justify-center">
         <Link href="#Contact">
         <button className="inline-flex items-center bg-red-900 border-0 py-1 px-8 focus:outline-none hover:bg-red-500 rounded-full text-base mt-4 md:mt-0 text-white">
