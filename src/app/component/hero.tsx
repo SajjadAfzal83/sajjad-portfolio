@@ -7,7 +7,7 @@ const Hero = () => {
   return (
       <section className="body-font bg-gray-50">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col">
-<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto">
   <Image
     className="object-cover object-center rounded-full mx-auto w-[20rem] h-[20rem]"
     alt="hero"
