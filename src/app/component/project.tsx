@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import project from "../../../public/assets/project/project-pic01.jpg"
 import React from 'react'
 
 const Project = () => {
@@ -17,7 +18,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/project/project-pic01.jpg")}
+            src={project}
             width={500}
             height={500}
           />
